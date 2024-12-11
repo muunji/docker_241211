@@ -2,7 +2,7 @@
 FROM node:16
 
 # 컨테이너 내 앱 디렉토리 설정
-WORKDIR /src
+WORKDIR /app
 
 # 의존성 설치
 COPY package.json ./
