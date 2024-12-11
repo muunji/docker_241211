@@ -12,7 +12,7 @@ RUN yarn install
 COPY . .
 
 # 앱 실행 포트 설정
-EXPOSE 3060
+EXPOSE 5000
 
 # 앱 실행 명령어
 CMD ["yarn", "start"]
