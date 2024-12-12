@@ -1,7 +1,7 @@
 {
   "name": "docker_241211",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "server.jsn",
   "repository": "https://github.com/muunji/docker_241211.git",
   "author": "muunji <twoji3019@naver.com>",
   "license": "MIT",

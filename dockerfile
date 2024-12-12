@@ -5,7 +5,7 @@ FROM node:16
 WORKDIR /app
 
 # 의존성 설치
-COPY package.json ./
+COPY package.json yarn.lock ./
 RUN yarn install
 
 # 앱 코드 복사
